@@ -6,7 +6,7 @@ import React from 'react'
 const Header = () => {
   return ( 
     <>
-       <img src="../src/assets/LLE logo 1.png" alt="" />
+    
     <Navbar/>
     </>
    
