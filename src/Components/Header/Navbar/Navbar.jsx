@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
         
 <div className='header'>
-    <img src="../src/assets/LLE logo 1.png" alt="The logo image" />
+    <img src="../src/assets/LLE logo 1.png" alt="The logo image" width={99}/>
    <ul className='lists'>
     <li className='list'>Home</li>
     <li>About us</li>

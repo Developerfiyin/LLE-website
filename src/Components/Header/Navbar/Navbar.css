@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
  
 html {
     scroll-behavior: smooth;
@@ -8,6 +9,7 @@ html {
     padding: 0 ;
     box-sizing: border-box;
 }
+
 body {
     background: rgba(255, 255, 255, 1);
     max-width: 1120px;
@@ -17,29 +19,36 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  padding: 50px;  
-  position: fixed;
+  margin-left: 40px;
+ 
+}
+ul {
+    list-style: none;
+    margin: 30px;
+}
+img {
+    width: 99px;
 }
 .list{
     list-style: none;
   font-family: "Montserrat";
   font-weight: 600;
   font-style: SemiBold;
- font-size: 16px;
+ font-size: 18px;
  color: rgba(58, 0, 0, 1);
  line-height: 24px;
  letter-spacing: 0px;
   text-align: center;
 
 }
-ul{
+.lists{
     font-family: "Montserrat";
     list-style: none;
-
-  letter-spacing: 0px;
-text-align: center;
-color:rgba(0, 0, 0, 0.6);
+   justify-content: space-evenly;
+margin-left: 3rem;
+    color:rgba(0, 0, 0, 0.6);
 }
+
 
 button {
     color: rgba(255, 255, 255, 1);
@@ -53,5 +62,10 @@ button {
   padding-bottom: 10px;
   padding-left: 16px;
   border-radius: 8px;
+  cursor: pointer;
 
+}
+button:hover {
+    background-color: bisque;
+    color: black;
 }
