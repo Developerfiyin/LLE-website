@@ -12,6 +12,7 @@ const Navbar = () => {
     <li>About us</li>
     <li>Events</li>
     <li>Contact us</li>
+    <li>Track us from</li>
     </ul>
 <button>Donate</button>
 </div>
