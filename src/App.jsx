@@ -1,11 +1,12 @@
-import Header from './Components/Header/Header'
+import Header from './Components/header'
+import Navbar from './Components/Navbar'
 import './App.css'
 
 const App =() => {
 return (
   <>
   <Header/>
-  
+  <Navbar/>
   </>
 )
 }
