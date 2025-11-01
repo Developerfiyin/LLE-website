@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Logo from "../assets/LLE logo 1.png"; //used
-import {AiOutlineClose } from 'react-icons/ai';
-import Frame from "../assets/Frame 14.png";
-const Navbar = () => {
+import {AiOutlineClose } from 'react-icons/ai'; //used
+import Frame from "../assets/Frame 14.png"; //used
+const Navbar = () => { 
     const [nav, SetNav] = useState(false)
 
     const handleClick = () => {
           SetNav(!nav )
-    }
+    }  //used
   return (
     <div className="w-full text-center ">
-      <div className="bg-amber-50 flex justify-between text-[#9999] font-medium p-4 gap-7 ">
+      <div className="bg-amber-50 flex justify-between text-[#9999] font-medium p-4 gap-7">
         <img src={Logo} alt="The logo image" width={99} />
         <ul className="text-center text-2xl hidden">
           <li className="p-4 text-[#A60000] hover:text-[#fd0707]">Home</li>
