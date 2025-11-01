@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/LLE logo 1.png";
+import Logo from "../assets/LLE logo 1.png"; //used
 import {AiOutlineClose } from 'react-icons/ai';
 import Frame from "../assets/Frame 14.png";
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
           <li className="p-4 hover:text-[#fd0707]">Contact us</li>
         </ul>
         <button className="bg-black w-[125px] rounded-md text-white m-2 shadow-[#A60000] hover:bg-[#4C0101] ease-out duration-300 ">Donate</button>
- <a href=""></a>
+ 
          <div className={nav ? "flex-col fixed w-[50%] h-full border-r top-0 left-0 bg-green-300 text-center text-2xl ease-in-out duration-300" : 'fixed -left-full ease-in-out duration-300 ' }>
           <a href="#"  className="p-4 text-[#A60000] hover:text-[#fd0707]">Home</a>
           <a href="#about" className="p-4 hover:text-[#fd0707] ">About us</a>

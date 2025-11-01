@@ -1,17 +1,42 @@
 import React from 'react'
+import Logo from "../assets/LLE logo 1.png";
 import about from './about'
 import event from './event'
 import contact from './contact'
+import {AiOutlineClose } from 'react-icons/ai';
+import Frame from "../assets/Frame 14.png"; 
 
 const header = () => {
+  const Navbar = () => { 
+      const [nav, SetNav] = useState(false)
+  
+      const handleClick = () => {
+            SetNav(!nav )
+      }
+    }
   return (
     <>
-    <header>
-       <a href="#">Home</a>
-       <a href="#about">About us </a>
-       <a href="#events">Events</a>
-       <a href="#contact">Contact us </a>
+    <header className='bg-amber-50 flex justify-between text-[#9999] py-10 p-4 mx-auto text-center'>
+       <img src={Logo} alt="The logo image" width={100} />
+       <div className='flex gap-8'>
+       <a href={about} className=' text-[#A60000] hover:text-[#fd0707]'>Home</a>
+       <a href="#about" className='hover:text-[#fd0707]'>About us </a>
+       <a href="#events" className='hover:text-[#fd0707]'>Events</a>
+       <a href="#contact" className='hover:text-[#fd0707] '>Contact us </a>
+       </div>
+      
+    <button className="bg-black w-[125px] rounded-md text-white shadow-[#A60000] hover:bg-[#4C0101] ease-out duration-300 ">Donate</button>
+ 
+          <div className={nav ? "flex-col fixed w-[50%] h-full border-r top-0 left-0 bg-green-300 text-center text-2xl ease-in-out duration-300" : 'fixed -left-full ease-in-out duration-300 ' }>
+          <a href="#"  className="p-4 text-[#A60000] hover:text-[#fd0707]">Home</a>
+          <a href="#about" className="p-4 hover:text-[#fd0707] ">About us</a>
+          <a href="#events" className="p-4 hover:text-[#fd0707] ">Events</a>
+          <a href="#contact us" className="p-4 hover:text-[#fd0707]">Contact us</a>
+        </div>
 
+         <div onClick={handleClick} className="block md:hidden">
+             {nav ? <img src={Frame} sizes="57" alt="the frame from the webpage" /> : <AiOutlineClose size={25}/> }
+         </div>
     </header>
 
     
