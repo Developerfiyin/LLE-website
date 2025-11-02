@@ -1,9 +1,13 @@
 import React from 'react'
-
-const hero = () => {
+import Frame from '../assets/Frame 13.png'
+const Hero = () => {
   return (
-    <div>hero</div>
+    <div>v
+      img
+      <img src={Frame} alt="The frame picture" />
+
+    </div>
   )
 }
 
-export default hero
+export default Hero
