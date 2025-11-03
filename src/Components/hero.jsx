@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='w-90 flex items-center mx-auto'>    
       <p className='text-[#A60000] rounded-full bg-[#F6E6E6] p-2'>Welcome to Limted Leadership Eversion (LLE)</p>
  </div>
-    <h1 className=' text-[rgb(58,0,0)] text-7xl md:text-9xl font-medium mb-4 leading-tight  '>Where Young <br /> Leaders are built </h1>
+    <h1 className=' text-[rgb(58,0,0)] font-montserrat font- text-7xl md:text-9xl font-medium mb-4 leading-tight  '>Where Young <br /> Leaders are built </h1>
     <p className='text-lg md:text-xl text-[#999999] mb-8 '>A non-profit organisation aimed to equip the next generation with the character, compontence, and courage to drive growth and transform communites.</p>
 
     </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
