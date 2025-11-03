@@ -13,5 +13,5 @@ const Hero = () => {
     </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
   )
 }
-bhwebfjnwerniknfnwjnfekrnjdb
+bh
 export default Hero
