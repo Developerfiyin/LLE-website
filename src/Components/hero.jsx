@@ -3,9 +3,12 @@ import Frame from '../assets/Frame 13.png'
 import Frame15 from '../assets/Frame 15.png'
 const Hero = () => {
   return (
-    <div className='bg-cover h-screen gap-80 bg-center text-center flex-col py-16 '  style={{ backgroundImage: `url(${Frame15})` }}>
-    <p className='text-[#A60000] rounded-full bg-[#F6E6E6] ml-50 mr-50 p-2'>Welcome to Limted Leadership Eversion (LLE)</p>
-    <h1 className=' text-[#3a0000] text-9xl font-medium'>Where Young Leaders are built </h1>
+    <div className='bg-cover h-screen gap-10 bg-center text-center flex justify-center flex-col py-16 '  style={{ backgroundImage: `url(${Frame15})` }}>
+    <div className='w-90 flex items-center mx-auto'>    
+      <p className='text-[#A60000] rounded-full bg-[#F6E6E6] p-2'>Welcome to Limted Leadership Eversion (LLE)</p>
+ </div>
+    <h1 className=' text-[rgb(58,0,0)] text-7xl md:text-9xl font-medium mb-4 leading-tight  '>Where Young <br /> Leaders are built </h1>
+    <p className='text-lg md:text-xl text-[#999999] mb-8 '>A non-profit organisation aimed to equip the next generation with the character, compontence, and courage to drive growth and transform communites.</p>
 
     </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
   )
