@@ -11,7 +11,7 @@ const Hero = () => {
     <p className='text-lg md:text-xl text-[#999999] mb-8'>A non-profit organisation aimed to equip the next generation with the character, compontence, and courage to drive growth and transform communites.</p>
        <button className='bg-[#a60000] text-white p-4 mx-auto rounded-lg hover:bg-[#3a0000] '>Partner with us</button>
     </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-  )
+  )   venrvjnejgn3rhknh3inevj
 }
 bh
 export default Hero
