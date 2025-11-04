@@ -16,14 +16,14 @@ const Hero = () => {
        <button className='bg-[#a60000] text-white p-4 mx-auto rounded-lg hover:bg-[#3a0000] '>Partner with us</button>
       
       <div className='flex space-x-16 overflow-hidden'>
-           <div className='flex justify-center space-x-16 animate-loop-scroll'>
+           <div className='flex justify-center space-x-16 animate-scroll'>
          <img src={img1} alt="The rectangle image from figma" className='max-w-none' />
          <img src={img2} alt="The rectangle image from figma" className='max-w-none' />
          <img src={img3} alt="photo of the student from the figma design" className='max-w-none' />
          <img src={img4} alt="photo of the audience fromt the figma design" className='max-w-none' />
        </div>
         
-       //   <div className='flex f  f space-x-16 animate-loop-scroll' aria-hidden="true" >
+        <div className='flex space-x-16 animate-scroll' aria-hidden="true" >
          <img src={img1} alt="The rectangle image from figma" className='max-w-none' />
          <img src={img2} alt="The rectangle image from figma" className='max-w-none'/>
          <img src={img3} alt="photo of the student from the figma design" className='max-w-none' />

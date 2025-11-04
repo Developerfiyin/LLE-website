@@ -10,14 +10,14 @@ export default defineConfig({
         Montserrat : ['Montserrat', 'sans-serif' ],
       },
       animation : {
-        "loop-scroll": "loop-scroll 50s linear infinite",
+        "scroll": "scroll 10s linear infinite",
       },
       keyframes : {
-        "loop-scroll": {
-          from: { transform : "translateX(0)" },
-          to : {transform : "translateX(-100%)"},
+        "scroll": {
+          "0%": { transform : "translateX(0)" },
+        "100%" : {transform : "translateX(-100%)"},
         },
-      }
+      },
     },
   },
   plugins: [react(),tailwindcss(),
