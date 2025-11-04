@@ -29,8 +29,7 @@ const Navbar = () => {
         <div onClick={handleClick} className="block md:hidden">
             {nav ? <img src={Frame} sizes="57" alt="the frame from the webpage" /> : <AiOutlineClose size={25}/> }
         </div>
-        
-
+      
 
       </div>
     </div>

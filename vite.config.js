@@ -9,7 +9,7 @@ export default defineConfig({
       fontFamily : {
         Montserrat : ['Montserrat', 'sans-serif' ],
       },
-      Animation : {
+      animation : {
         "loop-scroll": "loop-scroll 50s linear infinite"
       },
       keyframes : {
