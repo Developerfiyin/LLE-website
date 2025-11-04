@@ -27,7 +27,7 @@ const header = () => {
       
     <button className="bg-black w-[125px] rounded-md text-white shadow-[#A60000] hover:bg-[#4C0101] ease-out duration-300 ">Donate</button>
  
-          <div className={nav ? "gap-8 flex flex-col space-y-4 fixed w-[50%] border-b border-b-grey-900 h-full border-r top-0 left-0 bg-green-300 text-center text-2xl ease-in-out duration-300" : 'fixed -left-full ease-in-out duration-300 ' }>
+          <div className={nav ? "gap-8 flex flex-col space-y-4 fixed w-[50%] border-b border-b-grey-900 h-full border-r top-0 left-0 bg-white text-center text-2xl ease-in-out duration-300" : 'fixed -left-full ease-in-out duration-300 ' }>
           <a href="#" className="p-4 text-[#A60000] hover:text-[#fd0707]">Home</a>
           <a href="#about" className="p-4 hover:text-[#fd0707] ">About us</a>
           <a href="#events" className="p-4 hover:text-[#fd0707] ">Events</a>
