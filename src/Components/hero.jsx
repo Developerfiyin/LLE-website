@@ -8,7 +8,7 @@ const Hero = () => {
   const images = [img1, img2, img3, img4]
   return (
     <div className='bg-cover h-screen gap-10 bg-center text-center flex justify-center flex-col py-16 '  style={{ backgroundImage: `url(${Frame15})` }}>
-    <div className='w-90 font-montserrat flex text-center mx-auto '>    
+    <div className='w-90 font-montserrat flex text-cezzznter mx-auto '>    
       <p className='text-[#A60000] rounded-full boder text-xl border-t boder-grey-800 bg-[#F6E6E6] mt-100 p-2'>Welcome to Limted Leadership Eversion (LLE)</p>
  </div>
     <h1 className='text-[hsl(0,100%,11%)] font-montserrat font-black text-7xl md:text-9xl mb-4 leading-tight  '>Where Young <br /> Leaders are built </h1>
@@ -17,8 +17,8 @@ const Hero = () => {
 
 
          <div className="grid grid-cols-4 p-6 ">
-         <div className='flex justify-center gap-4 '>
-         <img src={img1} alt="The rectangle image from figma" />
+         <div className='flex justify-center gap-4 space-x-16 '>
+         <img src={img1} alt="The rectangle image from figma" className='max-w-none' />
          <img src={img2} alt="The rectangle image from figma" />
          <img src={img3} alt="photo of the student from the figma design" />
          <img src={img4} alt="photo of the audience fromt the figma design" />
