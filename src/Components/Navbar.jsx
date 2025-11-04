@@ -38,3 +38,11 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+ <div className='flex justify-center gap-4 '>
+         <img src={img1} alt="The rectangle image from figma" />
+         <img src={img2} alt="The rectangle image from figma" />
+         <img src={img3} alt="photo of the student from the figma design" />
+         <img src={img4} alt="photo of the audience fromt the figma design" />
+       </div>
