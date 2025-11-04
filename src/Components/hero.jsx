@@ -15,20 +15,21 @@ const Hero = () => {
     <p className='text-lg md:text-xl text-[#999999] mb-8'>A non-profit organisation aimed to equip the next generation with the character, compontence, and courage to drive growth and transform communites.</p>
        <button className='bg-[#a60000] text-white p-4 mx-auto rounded-lg hover:bg-[#3a0000] '>Partner with us</button>
       
-      <div className='flex overflow-hidden space-x-16'>
-           <div className='flex justify-center gap-4 animate-loop-scroll'>
+      <div className='flex space-x-16 overflow-hidden'>
+           <div className='flex justify-center space-x-16 animate-loop-scroll'>
          <img src={img1} alt="The rectangle image from figma" className='max-w-none' />
          <img src={img2} alt="The rectangle image from figma" className='max-w-none' />
          <img src={img3} alt="photo of the student from the figma design" className='max-w-none' />
          <img src={img4} alt="photo of the audience fromt the figma design" className='max-w-none' />
        </div>
         
-          <div className='flex justify-center gap-4 animate-loop-scroll'>
+       //   <div className='flex f  f space-x-16 animate-loop-scroll' aria-hidden="true" >
          <img src={img1} alt="The rectangle image from figma" className='max-w-none' />
-         <img src={img2} alt="The rectangle image from figma" />
-         <img src={img3} alt="photo of the student from the figma design" />
-         <img src={img4} alt="photo of the audience fromt the figma design" />
+         <img src={img2} alt="The rectangle image from figma" className='max-w-none'/>
+         <img src={img3} alt="photo of the student from the figma design" className='max-w-none' />
+         <img src={img4} alt="photo of the audience fromt the figma design" className='max-w-none' />
        </div>
+
       </div>
          
      
