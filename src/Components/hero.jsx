@@ -7,7 +7,7 @@ import Frame15 from '../assets/Frame 15.png'
 const Hero = () => {
   
   return (
-    <div className='bg-cover h-screen relative gap-10 bg-center text-center flex justify-center flex-col py-16 px-4'  style={{ backgroundImage: `url(${Frame15})` }}>
+    <div className='bg-cover h-[70%] relative gap-10 bg-center text-center flex justify-center flex-col py-16 px-4'  style={{ backgroundImage: `url(${Frame15})` }}>
     <div className='w-90 font-montserrat flex text-center mx-auto'>    
       <p className='mt-90 text-[#A60000] rounded-full text-xl border-t border-grey-800 bg-[#F6E6E6] p-2'>Welcome to Limted Leadership Eversion (LLE)</p>
  </div>
