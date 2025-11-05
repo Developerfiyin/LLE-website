@@ -17,18 +17,21 @@ const event = () => {
           <h4 className='text-[#3a0000] font-medium text-4xl '>ILE-IFE LEADERSHIP SYMPOSUIM</h4>
          <div className='p-2 flex'>
            <img src={location} alt="The location marker" width={25} className='h-6'/>
-          <span className='text-xl pl-4'>Full address/indication if its virtual </span>
+          <span className='text-xl pl-2'>Full address/indication if its virtual </span>
       </div>
       <div className='flex p-2'>
         <img src={calendar} alt="the calendar image" sizes='25'/>
-        <span className='pl-4'>12 Nov. 2025</span>
+        <span className='pl-6 '>12 Nov. 2025</span>
       </div>
 
 
-      <div className='rounded-full bg-[#ffefe6]'>
-        <h5 className='text-[#ff6300] font-semibold'>05</h5>
+      <div className='rounded-full bg-[#ffefe6]  '>
+        <h5 className='text-[#ff6300] font-semibold '>05</h5>
         <p className='text-[#3a000]'>Days</p>
-      </div>
+ </div>
+         <h5 className='text-[#ff6300] font-semibold '>05</h5>
+        <p className='text-[#3a000]'>Days</p>
+     
       </div>
      
 
