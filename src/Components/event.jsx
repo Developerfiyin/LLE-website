@@ -24,14 +24,20 @@ const event = () => {
         <span className='pl-6 '>12 Nov. 2025</span>
       </div>
 
-
-      <div className='rounded-full bg-[#ffefe6]  '>
+           <div>
+ <div className='rounded-full bg-[#ffefe6]  '>
         <h5 className='text-[#ff6300] font-semibold '>05</h5>
         <p className='text-[#3a000]'>Days</p>
- </div>
-         <h5 className='text-[#ff6300] font-semibold '>05</h5>
-        <p className='text-[#3a000]'>Days</p>
+        </div>
+       
      
+             <div className='rounded-full bg-[#ffefe6] '>
+        <h5 className='text-[#ff6300] font-semibold '>05</h5>
+        <p className='text-[#3a000]'>Days</p>
+        </div>
+           </div>
+     
+
       </div>
      
 
