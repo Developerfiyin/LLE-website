@@ -23,7 +23,7 @@ const event = () => {
         <img src={calendar} alt="the calendar image" sizes='25'/>
         <span className='pl-6 '>12 Nov. 2025</span>
       </div>
-/*njfnwjnefqjigjwefi
+/*njfnwjnefqjigjwefibuifwfejngjkwensc mp'q2dwu3fhqeqjrq2wdmk
            <div className=' flex  gap-6'>
 
  <div className='rounded-full bg-[#ffefe6] p-8 '>
