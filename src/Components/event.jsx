@@ -10,7 +10,7 @@ const event = () => {
      <h5 className='text-[#ff6300] font-medium text-2xl bg-[#ffefe6] mx-auto  p-2 rounded-xl'>Event</h5>
      <h2 className='font-bold text-3xl md:text-4xl sm:text-3xl text-[#3a0000]'>Upcoming Event</h2>
    </div>
-
+                {/* THE DIV FOR THE LOCATION AND CALENDAR */ }
      <div className='w-150 bg-white grid  rounded-2xl py-12 pl-2 shadow-2xl md:grid-cols-2'> 
           <img src={Frame} alt="" sizes='40' className='bg-white rounded-md '/>
         <div className='flex flex-col mb-9 '>
@@ -23,30 +23,29 @@ const event = () => {
         <img src={calendar} alt="the calendar image" sizes='25'/>
         <span className='pl-6 '>12 Nov. 2025</span>
       </div>
-
-           <div className=' flex gap-2'>
-           <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center text-center shadow-lg">
-             <h5 class="text-xl font-bold text-[#ff6300]">03</h5>
+               {/*  THE DIV FOR THE CIRLES*/ }
+        <div className=' flex gap-2 m-2 '>
+            <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center md:w-16 md:h-16 justify-center text-center shadow-lg">
+              <h5 class="text-xl font-bold text-[#ff6300]">03</h5>
               <p class="text-sm text-[#3a0000]">Days</p>
            </div>
 
-          <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center text-center shadow-lg">
+          <div class="w-20 h-20 bg-[#ffe8d9] md:w-16 md:h-16 rounded-full flex flex-col items-center justify-center text-center shadow-lg">
            <h5 class="text-2xl text-[#ff6300] font-bold">05</h5>
            <p class="text-sm text-[#3a0000]">Hours</p>
           </div>
 
-         <div className='w-20 h-20 rounded-full bg-[#ffe8d9] flex flex-col text-center items-center justify-center'>
+         <div className='w-20 h-20 rounded-full bg-[#ffe8d9] flex flex-col text-center md:w-16 md:h-16 items-center justify-center'>
            <h5 className='text-[#ff6300] font-semibold text-2xl'>25</h5>
-           <p className='text-[#3a0000]'>Minutes</p>
+           <p className='text-[#3a0000] text-sm'>Minutes</p>
           </div>
 
-         <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center text-white text-center shadow-lg">
-            <h5 class="text-2xl text-[#ff6300] font-bold">03</h5>
+         <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center md:w-16 md:h-16 text-center shadow-lg">
+          <h5 class="text-2xl text-[#ff6300] font-semibold">03</h5>
             <p class="text-sm text-[#3a0000]">Seconds</p>
+          </div>
         </div>
 
-           </div>
-     
 
       </div>
      
