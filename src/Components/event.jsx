@@ -24,18 +24,27 @@ const event = () => {
         <span className='pl-6 '>12 Nov. 2025</span>
       </div>
 
-           <div className=' flex  gap-6'>
+           <div className=' flex gap-2'>
+           <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center text-center shadow-lg">
+             <h5 class="text-xl font-bold text-[#ff6300]">03</h5>
+              <p class="text-sm text-[#3a0000]">Days</p>
+           </div>
 
- <div className='rounded-full bg-[#ffefe6] p-8 '>
-        <h5 className='text-[#ff6300] font-semibold '>05</h5>
-        <p className='text-[#3a000]'>Days</p>
+          <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center text-center shadow-lg">
+           <h5 class="text-2xl text-[#ff6300] font-bold">05</h5>
+           <p class="text-sm text-[#3a0000]">Hours</p>
+          </div>
+
+         <div className='w-20 h-20 rounded-full bg-[#ffe8d9] flex flex-col text-center items-center justify-center'>
+           <h5 className='text-[#ff6300] font-semibold text-2xl'>25</h5>
+           <p className='text-[#3a0000]'>Minutes</p>
+          </div>
+
+         <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center text-white text-center shadow-lg">
+            <h5 class="text-2xl text-[#ff6300] font-bold">03</h5>
+            <p class="text-sm text-[#3a0000]">Seconds</p>
         </div>
-       
-     
-             <div className='rounded-full bg-[#ffefe6] p-4 '>
-        <h5 className='text-[#ff6300] font-semibold '>05</h5>
-        <p className='text-[#3a000]'>Days</p>
-        </div>
+
            </div>
      
 
