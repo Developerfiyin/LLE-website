@@ -12,15 +12,15 @@ const event = () => {
    </div>
                 {/* THE DIV FOR THE LOCATION AND CALENDAR */ }
      <div className='w-150 bg-white grid rounded-2xl py-12 pl-2 shadow-2xl md:grid-cols-2'> 
-          <img src={Frame} alt="" sizes='40' className='bg-white rounded-md '/>
+          <img src={Frame} alt="" sizes='50' className='bg-white rounded-md '/>
         <div className='flex flex-col mx-auto'>
           <h4 className='text-[#3a0000] font-medium text-4xl '>ILE-IFE LEADERSHIP SYMPOSUIM</h4>
          <div className='p-2 flex'>
-           <img src={location} alt="The location marker" width={25} className='h-6'/>
+           <img src={location} alt="The location marker" width={20} className='h-6'/>
           <span className='text-xl pl-2'>Full address/indication if its virtual </span>
       </div>
-      <div className='flex p-2'>
-        <img src={calendar} alt="the calendar image" sizes='25'/>
+      <div className='flex pl-3'>
+        <img src={calendar} alt="the calendar image" width={20} className='h-6'/>
         <span className='pl-6 '>12 Nov. 2025</span>
       </div>
                {/*  THE DIV FOR THE CIRLES*/ }
