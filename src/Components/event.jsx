@@ -23,7 +23,7 @@ const event = () => {
         <img src={calendar} alt="the calendar image" sizes='25'/>
         <span className='pl-6 '>12 Nov. 2025</span>
       </div>
-/*njfnwjnefqjigjwefibuifwfejngjkwensc mp'q2dwu3fhqeqjrq2wdmk
+
            <div className=' flex  gap-6'>
 
  <div className='rounded-full bg-[#ffefe6] p-8 '>
@@ -32,7 +32,7 @@ const event = () => {
         </div>
        
      
-             <div className='rounded-full bg-[#ffefe6] p-8 '>
+             <div className='rounded-full bg-[#ffefe6] p-4 '>
         <h5 className='text-[#ff6300] font-semibold '>05</h5>
         <p className='text-[#3a000]'>Days</p>
         </div>
