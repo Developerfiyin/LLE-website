@@ -18,7 +18,6 @@ const vision = () => {
                         <button>Read More</button>
                             </div>
                         
-ijfiwfiejofiknweikgvibasej
                        </div>
 
 
