@@ -2,6 +2,7 @@ import Header from './Components/header'
 import Hero from './Components/hero'
 import Event from './Components/event'
 import Logo from './Components/logo'
+import Vision from './Components/vision'
 import './App.css'
 
 const App =() => {
@@ -11,6 +12,7 @@ return (
   <Hero/>
    <Event/>
    <Logo/>
+   <Vision/>
   </>
 )
 }
