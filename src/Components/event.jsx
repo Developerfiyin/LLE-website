@@ -46,9 +46,9 @@ const event = () => {
           </div>
         </div>
 
-        <div className='flex gap-2 md:p-2'>
-     <button className='bg-[#a60000] text-white p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Register Now</button>
-     <button className='bg-white text-[#a60000] ml-8 p-2 rounded-lg ease-in-out duration-300 text-xl font-medium hover:bg-[#ff6300] '>Partner with us</button>
+        <div className='flex gap-2'>
+     <button className='bg-[#a60000] text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Register Now</button>
+     <button className='bg-white text-[#a60000] ml-8 p-2 md:p-1 rounded-lg ease-in duration-200 text-xl font-medium hover:bg-[#ff6300] '>Partner with us</button>
    </div>
 
       </div>
