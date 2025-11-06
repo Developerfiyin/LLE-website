@@ -10,11 +10,14 @@ const vision = () => {
 
                        
                        <div className='grid grid-cols-3'>
-                            
-                        <div>
+                            <div >
+                               <div className='bg-[#f2f2f7] '>
                             <h5 className='text-[#3a0000] font-semibold '>Who are you ?</h5>
-
+                            <h5>We are a non-profit making organisation dedicated to developing young <br /> adults into capable leaders. </h5>
                         </div>
+                        <button>Read More</button>
+                            </div>
+                        
 
                        </div>
 
