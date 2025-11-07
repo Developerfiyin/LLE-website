@@ -12,10 +12,39 @@ const vision = () => {
 
                        
                        <div className='grid grid-cols-3'>
+                         <div className=' p-5  text-center' >
+                          <div className='bg-[#f2f2f7] flex flex-col lg:grid-cols-3 items-center gap-7 p-5 '>
+                           <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
+                         <div className='m-2'>
+                         <h5 className='text-[#0a0900] font-semibold text-4xl'>Who are you ?</h5>
+                         <h5 className='text-[#999] m-2 text-xl'>We are a non-profit making organisation dedicated to developing young <br /> adults into capable leaders. </h5>
+                          </div>
+                        <div className='flex justify-between  gap-3'>
+                          <button>Read More</button>         
+                        <img src={linksquare} alt="THE LINK SQUARE IMAGE" className='size-4' />
+                        </div>
+                         </div> 
+                          </div>
+                        
+
+
                          <div className='bg-[#f2f2f7] flex flex-col p-5 gap-7 items-center text-center' >
                          <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
                          <div className='m-2'>
-                         <h5 className='text-[#0a0900] font-semibold text-4xl'>Who are you ?</h5>
+                         <h5 className='text-[#0a0900] font-semibold text-4xl'>Our Methods</h5>
+                         <h5 className='text-[#999] m-2 text-xl'>We are a non-profit making organisation dedicated to developing young <br /> adults into capable leaders. </h5>
+                          </div>
+                        <div className='flex justify-between  gap-3'>
+                          <button>Read More</button>         
+                        <img src={linksquare} alt="THE LINK SQUARE IMAGE" className='size-4' />
+                        </div>
+                         </div> 
+
+
+                         <div className='bg-[#f2f2f7] flex flex-col p-5 gap-7 items-center text-center' >
+                         <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
+                         <div className='m-2'>
+                         <h5 className='text-[#0a0900] font-semibold text-4xl'>Our Method</h5>
                          <h5 className='text-[#999] m-2 text-xl'>We are a non-profit making organisation dedicated to developing young <br /> adults into capable leaders. </h5>
                           </div>
                         <div className='flex justify-between  gap-3'>

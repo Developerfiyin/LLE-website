@@ -5,13 +5,13 @@ import calendar from '../assets/calendar.png'
 
 const event = () => {
   return (
-    <div className=' flex-col p-4 items-center grid  text-center font-Montserrat text-[#999] bg-white py-16 justify-center'>
+    <div className=' flex-col p-4 items-center grid  text-center font-Montserrat text-[#999] bg-[#f9f9f9] py-16 justify-center'>
     <div className='flex flex-col mb-4'>
      <h5 className='text-[#ff6300] font-medium text-2xl bg-[#ffefe6] mx-auto mb-2 p-2 rounded-xl'>Event</h5>
      <h2 className='font-bold text-3xl md:text-4xl sm:text-3xl text-[#3a0000]'>Upcoming Event</h2>
    </div>
                 {/* THE DIV FOR THE LOCATION AND CALENDAR */ }
-     <div className='w-150 bg-white grid rounded-2xl py-12 pl-2 shadow-2xl md:grid-cols-2'> 
+     <div className='w-150 bg-white grid rounded-2xl py-12 pl-2 shadow-2xl lg:grid-cols-3'> 
           <img src={Frame} alt="" sizes='50' className='bg-white rounded-md '/>
         <div className='flex flex-col mx-auto'>
           <h4 className='text-[#3a0000] font-medium text-4xl '>ILE-IFE LEADERSHIP SYMPOSUIM</h4>
