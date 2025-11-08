@@ -3,6 +3,7 @@ import Hero from './Components/hero'
 import Event from './Components/event'
 import Logo from './Components/logo'
 import Vision from './Components/vision'
+import  About from './Components/about'
 import './App.css'
 
 const App =() => {
@@ -13,6 +14,7 @@ return (
    <Event/>
    <Logo/>
    <Vision/>
+   <About/>
   </>
 )
 }
