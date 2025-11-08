@@ -3,7 +3,8 @@ import template from '../assets/templates.png'
 const about = () => {
   return (
     <div>
-      <div className='S'>
+      <div className='bg-white'>
+         <img src={template} alt="the picture template" />
 
       </div>
     </div>
