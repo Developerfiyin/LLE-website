@@ -10,9 +10,9 @@ const vision = () => {
               <p className='bg-[#ffe8d9] text-[#ff6300] rounded-md p-2 mb-2'>How we work</p>
               <h2 className='text-3xl font-medium text-[#3a0000] sm:text-xl mb-6'>Building Leaders for the future.</h2>
 
-                       <div className='grid md:grid-cols-3 rounded-lg'>
+                       <div className='grid md:grid-cols-3 rounded-lg group'>
                          <div className='p-14' >
-                          <div className='bg-[#f2f2f7] flex flex-col items-center gap-7 p-5 text-center'>
+                          <div className='bg-[#f2f2f7] flex flex-col items-center gap-7 p-5 text-center group-hover:transition-2s hover:transform-[scale-1.3]'>
                            <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
                          <div className='m-2 text-center'>
                          <h5 className='text-[#0a0900] font-semibold text-4xl'>Who are you ?</h5>

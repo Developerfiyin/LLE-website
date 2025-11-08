@@ -5,15 +5,15 @@ import calendar from '../assets/calendar.png'
 
 const event = () => {
   return (
-    <div className=' flex-col p-4 items-center grid  text-center font-Montserrat text-[#999] bg-[#f9f9f9] py-16 justify-center'>
+    <div className=' flex-col p-4 items-center grid text-center font-Montserrat text-[#999] bg-[#f9f9f9] py-16 justify-center'>
     <div className='flex flex-col mb-4'>
      <h5 className='text-[#ff6300] font-medium text-2xl bg-[#ffefe6] mx-auto mb-2 p-2 rounded-xl'>Event</h5>
      <h2 className='font-bold text-3xl md:text-4xl sm:text-3xl text-[#3a0000]'>Upcoming Event</h2>
    </div>
                 {/* THE DIV FOR THE LOCATION AND CALENDAR */ }
-     <div className='w-150 bg-white grid rounded-2xl py-12 pl-2 shadow-2xl lg:grid-cols-3'> 
+     <div className='w-150 bg-white grid rounded-2xl py-12 pl-2 shadow-2xl' > 
           <img src={Frame} alt="" sizes='50' className='bg-white rounded-md '/>
-        <div className='flex flex-col mx-auto'>
+        <div className='flex flex-col mx-auto '>
           <h4 className='text-[#3a0000] font-medium text-4xl '>ILE-IFE LEADERSHIP SYMPOSUIM</h4>
          <div className='p-2 flex'>
            <img src={location} alt="The location marker" width={20} className='h-6'/>
@@ -48,7 +48,7 @@ const event = () => {
 
         <div className='flex gap-2'>
      <button className='bg-[#a60000] text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Register Now</button>
-     <button className='bg-white text-[#a60000] ml-8 p-2 md:p-1 rounded-lg ease-in duration-200 text-xl font-medium hover:bg-[#ff6300] '>Partner with us</button>
+     <button className='bg-white text-[#a60000] ml-8 p-2 md:p-1 rounded-lg ease-in duration-200 text-xl font-medium hover:bg-[#ffe8d9] '>Partner with us</button>
    </div>
 
       </div>
