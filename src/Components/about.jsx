@@ -1,10 +1,10 @@
 import React from 'react'
-import template from '../assets/templates.png'
+import Frame26 from '../assets/Frame 26.png'
 const about = () => {
   return (
     <div>
       <div className='bg-white'>
-         <img src={template} alt="the picture template" />
+         <img src={Frame26} alt="the picture template" />
 
       </div>
     </div>

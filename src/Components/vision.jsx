@@ -12,7 +12,7 @@ const vision = () => {
 
                        <div className='grid md:grid-cols-3 group'>
                          <div className='p-14' >
-                          <div className='bg-[#f2f2f7] rounded-lg flex flex-col items-center gap-7 p-5 text-center transition-all duration-300 group-hover:scale-100 group-hover:bg-[#ff6300]'>
+                          <div className='bg-[#f2f2f7] rounded-lg flex flex-col items-center gap-7 p-5 text-center transition-all duration-300 group-hover:scale-y-110 group-hover:bg-[#ff6300]'>
                            <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
                          <div className='m-2 text-center'>
                          <h5 className='text-[#0a0900] font-semibold text-4xl'>Who are you ?</h5>
@@ -27,7 +27,7 @@ const vision = () => {
                         
 
                             <div className='p-14'>
-                         <div className='bg-[#f2f2f7] rounded-lg flex flex-col p-5 gap-7 items-center text-center transition-all duration-300 group-hover:scale-100 group-hover:bg-[#ff6300]' >
+                         <div className='bg-[#f2f2f7] rounded-lg flex flex-col p-5 gap-7 items-center text-center transition-all duration-300 group-hover:scale-y-110 group-hover:bg-[#ff6300]' >
                          <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
                          <div className='m-2'> 
                          <h5 className='text-[#0a0900] font-semibold text-4xl'>Our Methods</h5>
@@ -41,7 +41,7 @@ const vision = () => {
                            </div>
 
                             <div className='p-14'>
-                            <div className='bg-[#f2f2f7] rounded-lg flex flex-col p-5 gap-7 items-center text-center transition-all duration-300 group-hover:scale-100 group-hover:bg-[#ff6300]' >
+                            <div className='bg-[#f2f2f7] rounded-lg flex flex-col p-5 gap-7 items-center text-center transition-all duration-300 group-hover:scale-y-110 group-hover:bg-[#ff6300]' >
                          <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
                          <div className='m-2'>
                          <h5 className='text-[#0a0900] font-semibold text-4xl'>Our Method</h5>
