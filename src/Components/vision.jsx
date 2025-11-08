@@ -10,9 +10,9 @@ const vision = () => {
               <p className='bg-[#ffe8d9] text-[#ff6300] rounded-md p-2 mb-2'>How we work</p>
               <h2 className='text-3xl font-medium text-[#3a0000] sm:text-xl mb-6'>Building Leaders for the future.</h2>
 
-                       <div className='grid md:grid-cols-3 rounded-lg group'>
+                       <div className='grid md:grid-cols-3 group'>
                          <div className='p-14' >
-                          <div className='bg-[#f2f2f7] flex flex-col items-center gap-7 p-5 text-center group-hover:transition-2s hover:transform-[scale-1.3]'>
+                          <div className='bg-[#f2f2f7] rounded-lg flex flex-col items-center gap-7 p-5 text-center transition-all duration-300 group-hover:scale-100 group-hover:bg-[#ff6300]'>
                            <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
                          <div className='m-2 text-center'>
                          <h5 className='text-[#0a0900] font-semibold text-4xl'>Who are you ?</h5>
@@ -27,11 +27,11 @@ const vision = () => {
                         
 
                             <div className='p-14'>
-                         <div className='bg-[#f2f2f7] flex flex-col p-5 gap-7 items-center text-center' >
+                         <div className='bg-[#f2f2f7] rounded-lg flex flex-col p-5 gap-7 items-center text-center transition-all duration-300 group-hover:scale-100 group-hover:bg-[#ff6300]' >
                          <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
-                         <div className='m-2'>
+                         <div className='m-2'> 
                          <h5 className='text-[#0a0900] font-semibold text-4xl'>Our Methods</h5>
-                         <h5 className='text-[#999] m-2 text-xl'>LLE is founded to strengthen &   <br /> uphold the pillar of  leadership, ensuring progress at every level.</h5>
+                         <h5 className='text-[#999] m-2 text-xl'>LLE is founded to strengthen &  upload <br /> the pillar of  leadership, ensuring progress at every level.</h5>
                           </div>
                         <div className='flex justify-between gap-3'>
                           <button>Read More</button>         
@@ -41,7 +41,7 @@ const vision = () => {
                            </div>
 
                             <div className='p-14'>
-                         <div className='bg-[#f2f2f7] flex flex-col p-5 gap-7 items-center text-center' >
+                            <div className='bg-[#f2f2f7] rounded-lg flex flex-col p-5 gap-7 items-center text-center transition-all duration-300 group-hover:scale-100 group-hover:bg-[#ff6300]' >
                          <img src={Frame43} alt="THE FRAME FOR THE VISION (ORANGE)" width={50}  />
                          <div className='m-2'>
                          <h5 className='text-[#0a0900] font-semibold text-4xl'>Our Method</h5>
