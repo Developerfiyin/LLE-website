@@ -14,9 +14,19 @@ const about = () => {
            <h2 className='text-[#3a0000] font-semibold text-4xl mb-6 '>Raising Leaders, One At A Time. </h2>
          <p className='text-[#3a0000] border-l-4 font-medium pl-4 h-17 border-l-[#ff6400]'>Limitless Leadership Eversion (LLE) is  a non-profit organization  <br /> 
          dedicated  to developing young adults into capable, effective, and <br />
-          efficient  leaders across all social systems.</p>
+          efficient  leaders across all social systems.</p> 
+          
+          <div className=''>
+          <button className='bg-[#ffe8d9] text-[#ff6300]  cursor-pointer m-6 ml-0 p-2 rounded-md '>Our Vision</button>
+          <button className='bg-[#ffe8d9] text-[#ff6300] cursor-pointer p-2 rounded-md mb-3'>Our Mission</button>
+           <p className='text-[#3a0000] font-medium'> To provide accessible and  simplified leadership  training for emerging 
+               leaders in institutions,  companies, and  communities</p>
+          </div>
+          
+          </div>
 
-      </div>
+
+
           </div>
     
       
