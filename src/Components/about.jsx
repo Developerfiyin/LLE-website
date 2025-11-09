@@ -17,14 +17,18 @@ const about = () => {
          dedicated  to developing young adults into capable, effective, and <br />
           efficient  leaders across all social systems.</p> 
           
-          <div className=''>
+          <div className=' felx justify-between'>
           <button className='bg-[#ffe8d9] text-[#ff6300]  cursor-pointer m-6 ml-0 p-2 rounded-md '>Our Vision</button>
           <button className='bg-[#ffe8d9] text-[#ff6300] cursor-pointer p-2 rounded-md mb-3'>Our Mission</button>
            <p className='text-[#3a0000] font-medium '> To provide accessible and  simplified leadership  training for emerging 
                leaders in institutions,  companies, and  communities</p>
           </div>
           <img src={Frame29} alt="THE FRAME FOR THE CEO" className='size-10' />
-          <span className='font-semibold text-[#3a0000]'>Name CEO</span>
+          <div className='flex flex-col font-montserrat gap-2 mx-auto ml-0'>
+          <span className='font-semibold text-[#3a0000] the image '>Name CEO</span>
+          <p className='font-semibold text-[#3a0000]'>CEO and Founder</p>
+
+          </div>
           </div>
 
 
