@@ -1,5 +1,6 @@
 import React from 'react'
 import Frame26 from '../assets/Frame 26.png'
+import Frame29 from '../assets/Frame 29.png'
 const about = () => {
   return (
     <section className='bg-white py-16 p-4'>
@@ -19,10 +20,11 @@ const about = () => {
           <div className=''>
           <button className='bg-[#ffe8d9] text-[#ff6300]  cursor-pointer m-6 ml-0 p-2 rounded-md '>Our Vision</button>
           <button className='bg-[#ffe8d9] text-[#ff6300] cursor-pointer p-2 rounded-md mb-3'>Our Mission</button>
-           <p className='text-[#3a0000] font-medium'> To provide accessible and  simplified leadership  training for emerging 
+           <p className='text-[#3a0000] font-medium '> To provide accessible and  simplified leadership  training for emerging 
                leaders in institutions,  companies, and  communities</p>
           </div>
-          
+          <img src={Frame29} alt="THE FRAME FOR THE CEO" className='size-10' />
+          <span className='font-semibold text-[#3a0000]'>Name CEO</span>
           </div>
 
 
