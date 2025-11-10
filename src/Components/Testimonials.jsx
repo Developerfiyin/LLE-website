@@ -8,9 +8,10 @@ const Testimonials = () => {
         <p className='bg-[#ffe8d9] text-[#ff6300] rounded-md p-2 text-lg mb-3 ml-0'>Testimonals</p>
           <h2 className='font-medium text-5xl mb-9'>Their Stories. Our Success</h2>
         </div>
-   
-            <div className='flex gap-5 md:grid-cols-3 grid'>
-            
+
+        
+            <div className='gap-5 grid md:grid-cols-3'>
+                        
               <div className='bg-white items-center text-center mx-auto w-120 h-90'>
                  <div className='items-center'>
                   <img src={ellips} alt="The image ellips"className='items-center rounded-t-full mx-auto '/>
@@ -45,6 +46,7 @@ const Testimonials = () => {
                    evening would be an understatement, really!!”</h3>
             </div>
            </div>
+        
 
         </div>
   )
