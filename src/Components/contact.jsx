@@ -12,6 +12,7 @@ const contact = () => {
        <p className='bg-[#ffe8d9] text-[#ff6300] rounded-md mx-auto p-2 text-lg mb-3 ml-0'>Testimonals</p>
         <h2 className='text-[#3a0000] font-medium  mb-9'>Feel Free To Contact Us Anytime.</h2>
 
+
         <div className='flex gap-3'>
        <img src={email} alt="The email icon" className='size-9' />
        <div className=''>
@@ -24,15 +25,18 @@ const contact = () => {
         <h6 className='font-medium text-[#3a0000] '>Call Us</h6>
         <p className='text-sm text-[#3a0000] '>081666990000</p>
        </div>
-       
-       <div>
-        <h6 className='font-bold text-[#3a0000] '>Follow Us</h6>
-        <img src={button} alt="THE BUTTON IMAGE" />
-        <img src={twitter} alt="" />
-        <img src="" alt="" />
+        
+        </div>
+
+       <div className='flex m-4 gap-2'>
+        <h6 className='font-bold text-[#3a0000] mr-2'>Follow Us</h6>
+        <img src={button} alt="THE BUTTON ICON" className='size-7' />
+        <img src={twitter} alt="The TWITTER ICON" className='size-7' />
+        <img src={Instagram} alt="The Instagram ICON" className='size-7' />
+        <img src={button} alt="THE INSTAGRAM ICON" className='size-7' />
        </div>
        
-        </div>
+        
       </div>
       
     </section>
