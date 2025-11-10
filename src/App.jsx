@@ -5,12 +5,13 @@ import Logo from './Components/logo'
 import Vision from './Components/vision'
 import  About from './Components/about'
 import './App.css'
+import Activities from './Components/Activities'
 
 const App =() => {
 
   const sliders = [ 
     {
-      id : "slider1", 
+    id : "slider1", 
       Images : ["../assets/Rectangle 21.png",
         "../assets/Rectangle 22.png",
         "../assets/Rectangle 23.png",
@@ -53,11 +54,12 @@ return (
        direction ={slider.direction} />
   )  }
    </section>
-   
+
    <Event/>
    <Logo/>
    <Vision/>
    <About/>
+   <Activities/>
   </>
 )
 }
