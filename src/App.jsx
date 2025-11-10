@@ -32,10 +32,11 @@ const App =() => {
         id : "slider3",
         Images : [
           "../assets/Rectangle 21.png",
-          "../assets/Rectangle 21.png",
-          "../assets/Rectangle 21.png",
-          "../assets/Rectangle 21.png",
-        ]
+          "../assets/Rectangle 22.png",
+          "../assets/Rectangle 23.png",
+          "../assets/Rectangle 24.png",
+        ],
+        direction : "left",
     }
   ]
 
@@ -43,7 +44,16 @@ const App =() => {
 return (
   <>
   <Header/>
-  <Hero/>
+
+  <section className='slider-container'> 
+    {sliders.map((slider) => 
+    <Hero key={slider.id}
+       id ={slider.id}
+       images={slider.Images}
+       direction ={slider.direction} />
+  )  }
+   </section>
+   
    <Event/>
    <Logo/>
    <Vision/>
