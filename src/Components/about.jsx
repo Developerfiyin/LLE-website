@@ -24,10 +24,13 @@ const about = () => {
                leaders in institutions,  companies, and  communities</p>
           </div>
          
-          <div className='flex font-montserrat gap-2'>
+          <div className='flex font-montserrat gap-6'>
             <img src={Frame29} alt="THE FRAME FOR THE CEO" className='size-10' />
-          <span className='font-semibold text-[#3a0000] the image '>Name CEO</span>
-          <p className='font-light text-[#3a0000]'>CEO and Founder</p>
+            <div className='flex flex-col'>
+           <span className='font-semibold text-[#3a0000] the image '>Name CEO</span>
+          <p className='font-light text-sm text-[#3a0000]'>CEO and Founder</p>
+            </div>
+    
              <button className='bg-[#a60000] text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Register Now</button>
 
               
