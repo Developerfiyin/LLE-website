@@ -39,9 +39,9 @@ const contact = () => {
         
         <div>
           <input type="text" placeholder="Name"
-           className='border-amber-600 bg-white '  />
-           <input type="email" placeholder='Email Address' className='bg-white' required  />
-           <input type="number" placeholder='Phone Number' className='bg-white' required  />
+           className='border-amber-600 bg-white  text-[#ff6300]' required  />
+           <input type="email" placeholder='Email Address' className='bg-white text-[#ff6300]' required  />
+           <input type="number" placeholder='Phone Number' className='bg-white text-[#ff6300]' required  />
         </div>
       </div>
       
