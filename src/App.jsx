@@ -6,6 +6,7 @@ import Vision from './Components/vision'
 import  About from './Components/about'
 import './App.css'
 import Activities from './Components/Activities'
+import Testimonials from './Components/Testimonials'
 
 const App =() => {
 
@@ -60,7 +61,8 @@ return (
    <Vision/>
    <About/>
    <Activities/>
-   
+   <Testimonials/>
+
   </>
 )
 }
