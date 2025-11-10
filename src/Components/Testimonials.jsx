@@ -2,7 +2,7 @@ import React from 'react'
 import ellips from '../assets/Ellipse 1131.png'
 const Testimonials = () => {
   return (
-    <div className='bg-[#f8f7f7] py-12 p-2 lg:grid-cols-1 grid'>
+    <div className='bg-[#f8f7f7] py-12 p-2'>
     
         <div className='flex flex-col items-center text-center'>
         <p className='bg-[#ffe8d9] text-[#ff6300] rounded-md p-2 text-lg mb-3 ml-0'>Testimonals</p>
@@ -10,9 +10,9 @@ const Testimonials = () => {
         </div>
 
         
-            <div className='gap-5 grid md:grid-cols-3'>
+            <div className='flex justify-evenly md:grid-cols-3 gap-6 '>
                         
-              <div className='bg-white items-center text-center mx-auto w-120 h-90'>
+              <div className='bg-white items-center text-center mx-auto w-120 h-90 '>
                  <div className='items-center'>
                   <img src={ellips} alt="The image ellips"className='items-center rounded-t-full mx-auto '/>
                 </div>
