@@ -28,7 +28,7 @@ const contact = () => {
         
         </div>
 
-       <div className='flex m-4 gap-2'>
+       <div className='flex m-4 gap-2 ml-0'>
         <h6 className='font-bold text-[#3a0000] mr-2'>Follow Us</h6>
         <img src={button} alt="THE BUTTON ICON" className='size-7' />
         <img src={twitter} alt="The TWITTER ICON" className='size-7' />
@@ -37,6 +37,9 @@ const contact = () => {
        </div>
        
         
+        <div>
+          <input type="text" placeholder="Name" className='border-amber-600 bg-white'  />
+        </div>
       </div>
       
     </section>
