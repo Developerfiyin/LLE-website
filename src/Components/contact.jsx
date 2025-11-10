@@ -1,6 +1,10 @@
 import React from 'react'
 import email from '../assets/email.png'
 import call from '../assets/call-02.png'
+import button from '../assets/Button.png'
+import twitter from '../assets/twitter.png'
+import Instagram  from '../assets/instagram.png'
+
 const contact = () => {
   return (
     <section className='bg-[#F8F7F7] py-12 flex flex-col m-9'>
@@ -22,7 +26,10 @@ const contact = () => {
        </div>
        
        <div>
-        <h6 className='font-bold text-[#3a0000]'>Follow Us</h6>
+        <h6 className='font-bold text-[#3a0000] '>Follow Us</h6>
+        <img src={button} alt="THE BUTTON IMAGE" />
+        <img src={twitter} alt="" />
+        <img src="" alt="" />
        </div>
        
         </div>
