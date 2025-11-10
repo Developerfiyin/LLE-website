@@ -21,6 +21,10 @@ const contact = () => {
         <p className='text-sm text-[#3a0000] '>081666990000</p>
        </div>
        
+       <div>
+        <h6 className='font-bold text-[#3a0000]'>Follow Us</h6>
+       </div>
+       
         </div>
       </div>
       
