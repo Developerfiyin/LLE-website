@@ -20,14 +20,17 @@ const about = () => {
           <div className=' felx justify-between'>
           <button className='bg-[#ffe8d9] text-[#ff6300]  cursor-pointer m-6 ml-0 p-2 rounded-md '>Our Vision</button>
           <button className='bg-[#ffe8d9] text-[#ff6300] cursor-pointer p-2 rounded-md mb-3'>Our Mission</button>
-           <p className='text-[#3a0000] font-medium '> To provide accessible and  simplified leadership  training for emerging 
+           <p className='text-[#3a0000] font-medium'> To provide accessible and  simplified leadership  training for emerging 
                leaders in institutions,  companies, and  communities</p>
           </div>
-          <img src={Frame29} alt="THE FRAME FOR THE CEO" className='size-10' />
-          <div className='flex flex-col font-montserrat gap-2 mx-auto ml-0'>
+         
+          <div className='flex font-montserrat gap-2'>
+            <img src={Frame29} alt="THE FRAME FOR THE CEO" className='size-10' />
           <span className='font-semibold text-[#3a0000] the image '>Name CEO</span>
-          <p className='font-semibold text-[#3a0000]'>CEO and Founder</p>
+          <p className='font-light text-[#3a0000]'>CEO and Founder</p>
+             <button className='bg-[#a60000] text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Register Now</button>
 
+              
           </div>
           </div>
 
