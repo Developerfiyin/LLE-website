@@ -5,6 +5,7 @@ import button from '../assets/Button.png'
 import twitter from '../assets/twitter.png'
 import Instagram  from '../assets/instagram.png'
 import { FaUser } from "react-icons/fa";
+import { FaSearchLocation } from 'react-icons/fa'
 
 const contact = () => {
   return (
@@ -49,7 +50,17 @@ const contact = () => {
            <input type="email" placeholder='Email Address'
             className='bg-white text-[#ff6300] border-2 border-gray-600 p-2 rounded-lg' required  />
         
- 
+  <div className="relative w-64">
+      {/* Icon */}
+      <FaSearchLocation className="absolute left-3 top-2.5 text-gray-400" size={20} />
+
+      {/* Input */}
+      <input
+        type="email"
+        placeholder="Email Address..."
+        className="pl-10 pr-3 py-2 w-full border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+      />
+    </div>
    
       
     </section>
