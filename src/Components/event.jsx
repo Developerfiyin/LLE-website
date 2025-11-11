@@ -25,14 +25,14 @@ const event = () => {
       </div>
                {/*  THE DIV FOR THE CIRLES*/ }
          <div className=' flex gap-2 m-2 '>
-            <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center md:w-16 md:h-16 justify-center text-center shadow-lg">
-              <h5 class="text-xl font-bold text-[#ff6300]">03</h5>
-              <p class="text-sm text-[#3a0000]">Days</p>
+            <div className="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center md:w-16 md:h-16 justify-center text-center shadow-lg">
+              <h5 className="text-xl font-bold text-[#ff6300]">03</h5>
+              <p className="text-sm text-[#3a0000]">Days</p>
            </div>
 
-          <div class="w-20 h-20 bg-[#ffe8d9] md:w-16 md:h-16 rounded-full flex flex-col items-center justify-center text-center shadow-lg">
-           <h5 class="text-2xl text-[#ff6300] font-bold">05</h5>
-           <p class="text-sm text-[#3a0000]">Hours</p>
+          <div className="w-20 h-20 bg-[#ffe8d9] md:w-16 md:h-16 rounded-full flex flex-col items-center justify-center text-center shadow-lg">
+           <h5 className="text-2xl text-[#ff6300] font-bold">05</h5>
+           <p className="text-sm text-[#3a0000]">Hours</p>
           </div>
 
          <div className='w-20 h-20 rounded-full bg-[#ffe8d9] flex flex-col text-center md:w-16 md:h-16 items-center justify-center'>
