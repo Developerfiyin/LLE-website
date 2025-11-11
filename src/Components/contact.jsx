@@ -4,6 +4,7 @@ import call from '../assets/call-02.png'
 import button from '../assets/Button.png'
 import twitter from '../assets/twitter.png'
 import Instagram  from '../assets/instagram.png'
+import { FaUser } from "react-icons/fa";
 
 const contact = () => {
   return (
@@ -39,17 +40,21 @@ const contact = () => {
       </div>
       </div>
         
-        <div className='bg'>
-          <input type="text" placeholder="Name"
-           className='border-gray-600 bg-white outline-orange-900 text-[#ff6300] border-2 p-2 rounded-2xl ' required  />
-           <input type="email" placeholder='Email Address' className='bg-white text-[#ff6300]' required  />
-           <input type="number" placeholder='Phone Number' className='bg-white text-[#ff6300]' required  />
-        </div>
+        <div className=' flex flex-col gap-4 relative'>
+          <FaUser className='absolute m-4' />
 
+          <input type="text" placeholder="Name"
+           className='border-gray-600 bg-white outline-orange-900 text-[#ff6300] border-2 p-2 rounded-lg  ' required  />
+           <input type="email" placeholder='Email Address'
+            className='bg-white text-[#ff6300]  border-2 p-2 rounded-lg border-gray-600 ' required  />
+           <input type="number" placeholder='Phone Number'
+            className='bg-white text-[#ff6300] border-2 border-gray-600 p-2 rounded-lg' required  />
+        </div>
+ 
    
       
     </section>
   )
 }
 
-export default contact
+export default contact 
