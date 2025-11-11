@@ -40,9 +40,9 @@ const event = () => {
            <p className='text-[#3a0000] text-sm'>Minutes</p>
           </div>
 
-         <div class="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center md:w-16 md:h-16 text-center shadow-lg">
-          <h5 class="text-2xl text-[#ff6300] font-bold">03</h5>
-            <p class="text-sm text-[#3a0000]">Seconds</p>
+         <div className="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center justify-center md:w-16 md:h-16 text-center shadow-lg">
+          <h5 className="text-2xl text-[#ff6300] font-bold">03</h5>
+            <p className="text-sm text-[#3a0000]">Seconds</p>
           </div>
         </div>
 
