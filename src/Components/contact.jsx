@@ -41,9 +41,9 @@ const contact = () => {
       </div>
         
         <div className=' flex flex-col gap-4 relative focus-within:text-[#ff6300]'>
-          <FaUser className='absolute ml-4' />
+          <FaUser className='absolute ml-4 mt-1' />
           <input type="text" placeholder="Name"
-           className='border-gray-600  outline-orange-900 placeholder:bg-gray-500 px-3 py-2 text-[#ff630] border-2 rounded-lg  ' required  />
+           className='border-gray-600  outline-orange-900 placeholder-gray-500 pr-3 pl-10 border-2 rounded-lg  ' required  />
             </div>
 
            <input type="email" placeholder='Email Address'
