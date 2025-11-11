@@ -40,16 +40,15 @@ const contact = () => {
       </div>
       </div>
         
-        <div className=' flex flex-col gap-4 relative'>
-          <FaUser className='absolute m-4' />
-
+        <div className=' flex flex-col gap-4 relative focus-within:text-[#ff6300]'>
+          <FaUser className='absolute ml-4' />
           <input type="text" placeholder="Name"
-           className='border-gray-600 bg-white outline-orange-900 text-[#ff6300] border-2 p-2 rounded-lg  ' required  />
+           className='border-gray-600  outline-orange-900 placeholder:bg-gray-500 px-3 py-2 text-[#ff630] border-2 rounded-lg  ' required  />
+            </div>
+
            <input type="email" placeholder='Email Address'
-            className='bg-white text-[#ff6300]  border-2 p-2 rounded-lg border-gray-600 ' required  />
-           <input type="number" placeholder='Phone Number'
             className='bg-white text-[#ff6300] border-2 border-gray-600 p-2 rounded-lg' required  />
-        </div>
+        
  
    
       
