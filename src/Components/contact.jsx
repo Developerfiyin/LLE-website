@@ -43,9 +43,10 @@ const contact = () => {
       </div>
       </div>
         
-       
-             <div className="relative w-64">
-                  {/* Icon */}
+       <div className='flex flex-col'>
+        <div className='flex'> 
+            <div className="relative w-64">
+               {/* Icon */}
                 <FaUser className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
                {/* Input */}
@@ -57,25 +58,27 @@ const contact = () => {
 
                 {/* OPTION TAG */}
                   
-             <div className="p-4">
-      <label className="block mb-2 font-medium text-gray-700">
-        Choose your favorite fruit:
-      </label>
-
-      <select
-      
-        className="border border-gray-300 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-blue-400"
-      >
-        <option value="apple">🍎 Apple</option>
-        <option value="banana">🍌 Banana</option>
-        <option value="orange">🍊 Orange</option>
+    <div className="p-4">
+          <select
+        className="border border-gray-300 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
+        <option value="Subject"> Choose Subject</option>
+        <option value="Subject"> Choose Subject</option>
+        <option value="Subject"> Choose Subject</option>
+        <option value="Subject"> Choose Subject</option>
+        <option value="subject"> Choose Subject</option>
+        <option value="subject"> Choose Subject</option>
+        <option value="subject"> Choose Subject</option>
       </select>
+       </div>
+        </div>
 
-    </div>
+{/* FLEX 2*/}
 
-                
-                
-             <div className="relative w-64">
+
+           <div className='flex gap-2'>
+
+            
+      <div className="relative w-64">
                   {/* Icon */}
                 <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
@@ -84,10 +87,8 @@ const contact = () => {
                   type="email"   required
                placeholder="Email Address..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
-                  </div>
+       </div>
 
-          
-        
   <div className="relative w-64">
       {/* Icon */}
       <BsTelephone className="absolute left-3 top-2.5 text-gray-500" size={20} />
@@ -99,6 +100,8 @@ const contact = () => {
         className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"
       />
     </div>
+      </div>        
+       </div>
    
       
     </section>
