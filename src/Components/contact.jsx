@@ -55,6 +55,26 @@ const contact = () => {
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
                   </div> 
 
+                {/* OPTION TAG */}
+                  
+             <div className="p-4">
+      <label className="block mb-2 font-medium text-gray-700">
+        Choose your favorite fruit:
+      </label>
+
+      <select
+      
+        className="border border-gray-300 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      >
+        <option value="apple">🍎 Apple</option>
+        <option value="banana">🍌 Banana</option>
+        <option value="orange">🍊 Orange</option>
+      </select>
+
+    </div>
+
+                
+                
              <div className="relative w-64">
                   {/* Icon */}
                 <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
