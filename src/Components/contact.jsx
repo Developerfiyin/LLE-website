@@ -5,35 +5,35 @@ import button from '../assets/Button.png'
 import twitter from '../assets/twitter.png'
 import Instagram  from '../assets/instagram.png'
 import { FaUser } from "react-icons/fa";
-import { BsTelephone, BsTelephoneFill } from 'react-icons/bs'
+import { BsTelephoneFill } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 import { TbElevator } from 'react-icons/tb'
 
 const contact = () => {
   return (
-    <section className='flex justify-evenly py-12 '>
+    <section className='flex justify-evenly py-12 bg-[#f8f7f7]'>
     <div className=' bg-[#F8F7F7] flex flex-col m-9 '>
 
       <div className='flex flex-col p-6 '>
-       <p className='bg-[#ffe8d9] text-[#ff6300] rounded-lg mx-auto p-2 mb-3 ml-0'>Contact Us</p>
-        <h2 className='text-[#3a0000] font-medium  mb-9'>Feel Free To Contact Us Anytime.</h2>
+       <p className='bg-[#ffe8d9] text-[#ff6300] text-2xl rounded-lg mx-auto p-2 mb-3 ml-0'>Contact Us</p>
+        <h2 className='text-[#3a0000] text-3xl font-medium  mb-9'>Feel Free To Contact Us Anytime.</h2>
 
         <div className='flex gap-3'>
-       <img src={email} alt="The email icon" className='size-9' />
+       <img src={email} alt="The email icon" className='size-12' />
        <div className=''>
-        <h6 className='font-medium text-[#3a0000] '>Chat Now</h6>
+        <h6 className='font-medium text-[#3a0000] text-xl '>Chat Now</h6>
         <p className='text-sm text-[#3a0000] '>Kinkan@gmail.com</p>
        </div>
 
-       <img src={call} alt="The email icon" className='size-6' />
+       <img src={call} alt="The email icon" className='size-9' />
        <div className=''>
-        <h6 className='font-medium text-[#3a0000] '>Call Us</h6>
+        <h6 className='font-medium text-[#3a0000] text-xl'>Call Us</h6>
         <p className='text-sm text-[#3a0000] '>081666990000</p>
        </div>
         </div>
 
        <div className='flex m-4 gap-2 ml-0'>
-        <h6 className='font-bold text-[#3a0000] mr-2'>Follow Us</h6>
+        <h6 className='font-bold text-[#3a0000] mr-2 text-2xl'>Follow Us</h6>
         <img src={button} alt="THE BUTTON ICON" className='size-7' />
         <img src={twitter} alt="The TWITTER ICON" className='size-7' />
         <img src={Instagram} alt="The Instagram ICON" className='size-7' />
@@ -102,7 +102,7 @@ const contact = () => {
 
     <textarea
       placeholder="Write your thoughts..."
-      className="w-full h-40 mx-auto mt-5 border border-gray-300 rounded-lg p-3 text-gray-700 resize-none focus:ring-2 focus:ring-blue-400 focus:outline-none"
+      className="w-full h-40 mx-auto mt-3 border border-gray-300 rounded-lg p-3 text-gray-700 resize-none focus:ring-2 focus:ring-[#ff6300] focus:outline-none"
       />
 
       <button className='bg-[#a60000] mx-auto mt-6 ml-0 text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Send Your Message</button>
