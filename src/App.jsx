@@ -8,6 +8,7 @@ import './App.css'
 import Activities from './Components/Activities'
 import Testimonials from './Components/Testimonials'
 import Contact from './Components/contact'
+import Newsletter from './Components/Newsletter'
 
 const App =() => {
 
@@ -64,6 +65,7 @@ return (
    <Activities/>
    <Testimonials/>
    <Contact/>
+   <Newsletter/>
 
   </>
 )
