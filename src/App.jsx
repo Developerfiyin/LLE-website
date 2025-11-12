@@ -9,6 +9,7 @@ import Activities from './Components/Activities'
 import Testimonials from './Components/Testimonials'
 import Contact from './Components/contact'
 import Newsletter from './Components/Newsletter'
+import Footer from './Components/Footer'
 
 const App =() => {
 
@@ -66,6 +67,7 @@ return (
    <Testimonials/>
    <Contact/>
    <Newsletter/>
+   <Footer/>
 
   </>
 )
