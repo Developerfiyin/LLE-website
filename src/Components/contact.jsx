@@ -44,7 +44,7 @@ const contact = () => {
       </div>
         
        <div className='flex flex-col'>
-        <div className='flex'> 
+        <div className='flex gap-4'> 
             <div className="relative w-64">
                {/* Icon */}
                 <FaUser className="absolute left-3 top-2.5 text-gray-500" size={20} />
@@ -58,26 +58,24 @@ const contact = () => {
 
                 {/* OPTION TAG */}
                   
-    <div className="p-4">
+     <div className="p-4">
           <select
-        className="border border-gray-300 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
-        <option value="Subject"> Choose Subject</option>
-        <option value="Subject"> Choose Subject</option>
-        <option value="Subject"> Choose Subject</option>
-        <option value="Subject"> Choose Subject</option>
-        <option value="subject"> Choose Subject</option>
-        <option value="subject"> Choose Subject</option>
-        <option value="subject"> Choose Subject</option>
-      </select>
-       </div>
+        className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
+        <option value="Subject">Choose Subject</option>
+        <option value="Subject">Choose Subject</option>
+        <option value="Subject">Choose Subject</option>
+        <option value="Subject">Choose Subject</option>
+        <option value="subject">Choose Subject</option>
+        <option value="subject">Choose Subject</option>
+        <option value="subject">Choose Subject</option>
+        </select>
+      </div>
         </div>
 
-{/* FLEX 2*/}
+      {/* FLEX 2*/}
 
 
-           <div className='flex gap-2'>
-
-            
+       <div className='flex gap-4'>
       <div className="relative w-64">
                   {/* Icon */}
                 <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
