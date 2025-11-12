@@ -5,8 +5,9 @@ import button from '../assets/Button.png'
 import twitter from '../assets/twitter.png'
 import Instagram  from '../assets/instagram.png'
 import { FaUser } from "react-icons/fa";
-import { FaSearchLocation } from 'react-icons/fa'
+import { BsTelephone, BsTelephoneFill } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
+import { TbElevator } from 'react-icons/tb'
 
 const contact = () => {
   return (
@@ -42,23 +43,39 @@ const contact = () => {
       </div>
       </div>
         
-        <div className=' flex flex-col gap-4 relative focus-within:text-[#ff6300]'>
-          <FaUser className='absolute ml-4 mt-1' />
-          <input type="text" placeholder="Name"
-           className='border-gray-600  outline-orange-900 placeholder-gray-500 pr-3 pl-10 border-2 rounded-lg  ' required  />
-            </div>
+       
+             <div className="relative w-64">
+                  {/* Icon */}
+                <FaUser className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
-           <input type="email" placeholder='Email Address'
-            className='bg-white text-[#ff6300] border-2 border-gray-600 p-2 rounded-lg' required  />
+               {/* Input */}
+                  <input
+                  type="text"   required
+               placeholder="Name..."
+              className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
+                  </div> 
+
+             <div className="relative w-64">
+                  {/* Icon */}
+                <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
+
+               {/* Input */}
+                  <input
+                  type="email"   required
+               placeholder="Email Address..."
+              className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
+                  </div>
+
+          
         
   <div className="relative w-64">
       {/* Icon */}
-      <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
+      <BsTelephone className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
       {/* Input */}
       <input
-        type="email"
-        placeholder="Email Address..."
+        type="phone no"
+        placeholder="Phone number"
         className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"
       />
     </div>
