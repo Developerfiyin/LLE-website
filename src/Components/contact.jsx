@@ -77,11 +77,11 @@ const contact = () => {
 
        <div className='flex gap-4'>
       <div className="relative w-64">
-                  {/* Icon */}
-                <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
+              {/* Icon */}
+              <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
-               {/* Input */}
-                  <input
+              {/* Input */}
+              <input
                   type="email"   required
                placeholder="Email Address..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
@@ -89,7 +89,7 @@ const contact = () => {
 
   <div className="relative w-64">
       {/* Icon */}
-      <BsTelephone className="absolute left-3 top-2.5 text-gray-500" size={20} />
+      <BsTelephoneFill  className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
       {/* Input */}
       <input
@@ -98,7 +98,15 @@ const contact = () => {
         className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"
       />
     </div>
-      </div>        
+      </div> 
+
+    <textarea
+      placeholder="Write your thoughts..."
+      className="w-full h-40 mx-auto mt-5 border border-gray-300 rounded-lg p-3 text-gray-700 resize-none focus:ring-2 focus:ring-blue-400 focus:outline-none"
+      />
+
+      <button className='bg-[#a60000] mx-auto mt-6 ml-0 text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Send Your Message</button>
+
        </div>
    
       
