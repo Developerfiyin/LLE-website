@@ -5,7 +5,8 @@ import Instagram  from '../assets/instagram.png'
 
 const Footer = () => {
   return (
-    <div className='py-12 flex bg-[#F8F7F7] grid md:grid-cols-2 p-8 gap-9 '>
+    <>
+    <div className='py-12 flex bg-[#F8F7F7] p-8 gap-9 '>
     <div className='flex flex-col m-6 mt-0 gap-3'>  
      <p className='text-[#999] text-xl mb-8'>Limitless Leadership Eversion (LLE) is  a non-profit organization <br />
         dedicated to developing young adults into  capable, effective, and <br />
@@ -38,6 +39,9 @@ const Footer = () => {
    <p className='p-2'>Contact: 08133518773</p>
   </div> 
     </div>
+        <p className='w-full text-[#3a0000] text-center border-t-4 border-[#3a0000]'>@ copyright 2025. All rights reserved  </p>
+
+    </>
   )
 }
 
