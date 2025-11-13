@@ -1,5 +1,4 @@
 import React from 'react'
-import call from '../assets/call-02.png'
 import button from '../assets/Button.png'
 import twitter from '../assets/twitter.png'
 import Instagram  from '../assets/instagram.png'
@@ -31,6 +30,10 @@ const Footer = () => {
           <h6 className='p-4'>Contact Us</h6>
       </div>
 
+
+   <div>
+    <h5></h5>
+  </div>
     </div>
   )
 }
