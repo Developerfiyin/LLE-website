@@ -49,15 +49,15 @@ const App =() => {
 return (
   <>
   <Header/>
-
-  <section className='slider-container'> 
+  <Hero/>
+ { /*<section className='slider-container'>
     {sliders.map((slider) => 
     <Hero key={slider.id}
        id ={slider.id}
        images={slider.Images}
        direction ={slider.direction} />
   )  }
-   </section>
+   </section> */}
 
    <Event/>
    <Logo/>

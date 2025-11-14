@@ -8,7 +8,6 @@ const Testimonials = () => {
         <p className='bg-[#ffe8d9] text-[#ff6300] rounded-md p-2 text-lg mb-3 ml-0'>Testimonals</p>
           <h2 className='font-medium text-5xl mb-9'>Their Stories. Our Success</h2>
         </div>
-
         
             <div className='flex justify-evenly md:grid-cols-3 gap-6 '>
                         
