@@ -17,7 +17,7 @@ const Footer = () => {
      pillar of  leadership, ensuring progress and  prosperity at every level.</p>
          
          <div className='flex gap-6 '>
-      <img src={button} alt="" className='w-10 h-10' />
+      <img src={Facebook} alt="" className='w-10 h-10' />
      <img src={twitter} alt="THE TWITTER ICON" className='w-10 h-10' />
      <img src={Instagram} alt="THE INSTAGRAM ICON"className='w-10 h-10' />
      <img src={button} alt="THE LINKDEIN ICON" className='w-10 h-10' />
@@ -25,7 +25,7 @@ const Footer = () => {
     </div>
 
       <div className='text-[#3a0000] p-6 font-semibold'>
-        <h5 className=' font-medium text-xl '>Quick Link</h5>
+        <h5 className=' font-medium text-xl'>Quick Link</h5>
           <h6 className='p-2'>Home</h6>
           <h6 className='p-2'>About us</h6> 
           <h6 className='p-2'>Events</h6>
@@ -40,7 +40,7 @@ const Footer = () => {
    <p className='p-2'>Contact: 08133518773</p>
   </div> 
     </div>
-     <p className='w-full text-[#3a0000] text-center border-t-4 border-[#3a0000]'>@ copyright 2025. All rights reserved  </p>
+     <p className='w-full text-[#3a0000] text-center border-t-2 border-[#3a0000]'>@ Copyright 2025, LLE - Limitless Leadership Eversion  </p>
 
     </>
   )
