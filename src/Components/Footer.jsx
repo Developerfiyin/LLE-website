@@ -2,6 +2,7 @@ import React from 'react'
 import button from '../assets/Button.png'
 import twitter from '../assets/twitter.png'
 import Instagram  from '../assets/instagram.png'
+import Facebook from '../assets/facebook.png'
 
 const Footer = () => {
   return (
