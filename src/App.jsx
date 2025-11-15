@@ -57,7 +57,7 @@ return (
        images={slider.Images}
        direction ={slider.direction} />
   )  }
-   </section> */}
+   </section> */ }
 
    <Event/>
    <Logo/>
