@@ -20,21 +20,23 @@ return (
   <Hero/>
   </section>
 
-           
-     <section id='event'>
-         <Event/>
-     </section>
+   <section id='event'>
+      <Event/>
+    </section>
  
-        <Logo/>      
-          <section id='vision'>
+        <Logo/>  
+
+    <section id='vision'>
          <Vision/>
-          </section>
- 
- 
-  
-   <Activities/>
+     </section>
+
+  <Activities/>
    <Testimonials/>
-   <Contact/>
+
+      <section id='contact'>
+      <Contact/>
+      </section>
+
    <Newsletter/>
    <Footer/>
 
