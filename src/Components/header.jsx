@@ -19,7 +19,7 @@ const header = () => {
     <header className='bg-amber-50 flex justify-between text-[#9999] py-10 p-4 mx-auto text-center'>
        <img src={Logo} alt="The logo image" width={100} />
        <div className='hidden md:flex gap-8 font-medium'>
-       <a onClick={about} className=' text-[#A60000] hover:text-[#fd0707]'>Home</a>
+       <a href="#" className='text-[#A60000] hover:text-[#fd0707]'>Home</a>
        <a href="#about" className='hover:text-[#fd0707]'>About us</a>
        <a href="#events" className='hover:text-[#fd0707]'>Events</a>
        <a href="#contact" className='hover:text-[#fd0707] '>Contact us </a>
