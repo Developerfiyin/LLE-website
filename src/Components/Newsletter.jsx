@@ -3,22 +3,22 @@ import React from 'react'
 const Newsletter = () => {
   return (
     
-    <main className='py-12 p-4 bg-white items-center mx-auto'>
-          
+    <main className='py-8  p-4 bg-white items-center '>
+    
+           <div className='flex flex-col mx-auto'> 
+        <p className='bg-[#ffe8d9] text-[#ff6300] text-xl mx-auto rounded-lg  p-2 mb-3'>Our News Letter</p>
+       <h3 className='font-medium text-5xl text-[#3a0000] mx-auto mb-5 '>Get the latest updates <br />
+         delivered to your mail</h3>
+
+
+
+           </div>
+
+
      
       </main>
       
     
-
-
-
-
-
-
-
-
-
-
 
 
    
