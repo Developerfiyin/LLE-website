@@ -20,6 +20,10 @@ return (
   <Hero/>
   </section>
 
+     <section id='about'>
+      <About/>
+     </section>
+
    <section id='event'>
       <Event/>
     </section>
