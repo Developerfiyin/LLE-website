@@ -1,12 +1,9 @@
 import React, {useState} from 'react'
 import Logo from "../assets/LLE logo 1.png";
-import about from './about'
-import event from './event'
-import contact from './contact'
 import {AiOutlineClose } from 'react-icons/ai';
 import Frame from "../assets/Frame 14.png"; 
 
-const header = () => {
+const Header = () => {
  
   const [nav, SetNav] = useState(false)
 
@@ -44,4 +41,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

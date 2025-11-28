@@ -1,4 +1,4 @@
-import Header from './Components/header'
+import Header from './Components/Header'
 import Hero from './Components/hero'
 import Event from './Components/event'
 import Logo from './Components/logo'
@@ -12,53 +12,10 @@ import Newsletter from './Components/Newsletter'
 import Footer from './Components/Footer'
 
 const App =() => {
-
-  const sliders = [ 
-    {
-    id : "slider1", 
-      Images : ["../assets/Rectangle 21.png",
-        "../assets/Rectangle 22.png",
-        "../assets/Rectangle 23.png",
-        "../assets/Rectangle 24.png",
-      ],
-      direction : "left",
-    },
-    {
-       id : "slider2",
-       Images : [
-        "../assets/Rectangle 21.png",
-        "../assets/Rectangle 22.png",
-        "../assets/Rectangle 23.png",
-        "../assets/Rectangle 24.png",
-       ],
-       direction : " right" ,
-    },
-    {
-        id : "slider3",
-        Images : [
-          "../assets/Rectangle 21.png",
-          "../assets/Rectangle 22.png",
-          "../assets/Rectangle 23.png",
-          "../assets/Rectangle 24.png",
-        ],
-        direction : "left",
-    }
-  ]
-
-
 return (
   <>
   <Header/>
   <Hero/>
- { /*<section className='slider-container'>
-    {sliders.map((slider) => 
-    <Hero key={slider.id}
-       id ={slider.id}
-       images={slider.Images}
-       direction ={slider.direction} />
-  )  }
-   </section> */ }
-
    <Event/>
    <Logo/>
    <Vision/>
