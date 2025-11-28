@@ -15,11 +15,23 @@ const App =() => {
 return (
   <>
   <Header/>
+
+  <section id='home'>
   <Hero/>
-   <Event/>
-   <Logo/>
-   <Vision/>
-   <About/>
+  </section>
+
+           
+     <section id='event'>
+         <Event/>
+     </section>
+ 
+        <Logo/>      
+          <section id='vision'>
+         <Vision/>
+          </section>
+ 
+ 
+  
    <Activities/>
    <Testimonials/>
    <Contact/>
