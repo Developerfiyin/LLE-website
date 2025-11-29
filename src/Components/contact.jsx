@@ -15,12 +15,28 @@ const contact = () => {
       <div className='flex flex-col mx-auto'>
              
              <div className='flex justify-between'>
-              <div>
+              <div> 
               <p className='bg-[#ffe8d9] text-[#ff6300] text-2xl rounded-lg mx-auto p-2 mb-3 ml-0'>Contact Us</p>
+              <h2 className='text-[#3a0000] text-3xl font-medium  mb-9'>Feel Free To Contact Us Anytime.</h2>
+
+                 <div className='flex gap-3'>
+       <img src={email} alt="The email icon" className='size-12' />
+       <div className=''>
+        <h6 className='font-medium text-[#3a0000] text-xl '>Chat Now</h6>
+        <p className='text-sm text-[#3a0000] '>Kinkan@gmail.com</p>
+       </div>
+
+       <img src={call} alt="The email icon" className='size-9' />
+       <div className=''>
+        <h6 className='font-medium text-[#3a0000] text-xl'>Call Us</h6>
+        <p className='text-sm text-[#3a0000] '>081666990000</p>
+       </div>
+        </div>
+
+
              </div>
 
-             
-              <div className=" flex gap-2.5">
+          <div className=" flex gap-2.5">
             <div className="relative w-64">
                 <FaUser className="absolute left-3 top-2.5 text-gray-500" size={20} />
                   <input
@@ -29,22 +45,21 @@ const contact = () => {
                placeholder="Name..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
                   </div> 
-
-          <select
-        className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
-        <option value="Subject">Choose Subject</option>
-        <option value="Subject">Choose Subject</option>
-        <option value="Subject">Choose Subject</option>
-        <option value="Subject">Choose Subject</option>
-        <option value="subject">Choose Subject</option>
-        <option value="subject">Choose Subject</option>
-        <option value="subject">Choose Subject</option>
-        </select>
+            <div>
+            <select
+           className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
+           <option value="Subject">Choose Subject</option>
+          <option value="Subject">Choose Subject</option>
+          <option value="Subject">Choose Subject</option>
+          <option value="Subject">Choose Subject</option>
+          <option value="subject">Choose Subject</option>
+          <option value="subject">Choose Subject</option>
+          <option value="subject">Choose Subject</option>
+         </select>
       </div>  
-
-             </div>
-
-             
+      </div>
+      
+       </div>            
              
       </div>
    
