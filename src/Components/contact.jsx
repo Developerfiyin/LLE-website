@@ -33,7 +33,15 @@ const contact = () => {
        </div>
         </div>
 
+   <div className='flex m-4 gap-2 ml-0'>
+        <h6 className='font-bold text-[#3a0000] mr-2 text-2xl'>Follow Us</h6>
+        <img src={button} alt="THE BUTTON ICON" className='size-7' />
+        <img src={twitter} alt="The TWITTER ICON" className='size-7' />
+        <img src={Instagram} alt="The Instagram ICON" className='size-7' />
+        <img src={button} alt="THE INSTAGRAM ICON" className='size-7' />
+       </div>           
 
+                
              </div>
 
           <div className=" flex gap-2.5">
@@ -45,6 +53,7 @@ const contact = () => {
                placeholder="Name..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
                   </div> 
+
             <div>
             <select
            className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
@@ -57,6 +66,8 @@ const contact = () => {
           <option value="subject">Choose Subject</option>
          </select>
       </div>  
+
+       
       </div>
       
        </div>            
