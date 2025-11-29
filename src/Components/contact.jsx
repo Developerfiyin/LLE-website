@@ -40,9 +40,8 @@ const contact = () => {
         <img src={Instagram} alt="The Instagram ICON" className='size-7' />
         <img src={button} alt="THE INSTAGRAM ICON" className='size-7' />
        </div>           
+        </div>
 
-                
-             </div>
 
           <div className=" flex gap-2.5">
             <div className="relative w-64">
@@ -66,12 +65,30 @@ const contact = () => {
           <option value="subject">Choose Subject</option>
          </select>
       </div>  
-
-       
       </div>
       
+
        </div>            
-             
+                       <div className='gap-4 flex'>
+         <div className="relative w-64">   
+        <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
+                 <input
+               type="email"   required
+               placeholder="Email Address..."
+              className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
+           </div>
+
+        <div className="relative w-64">
+      
+      <BsTelephoneFill  className="absolute left-3 top-2.5 text-gray-500" size={20} />
+      <input
+        type="phone no"
+        placeholder="Phone number"
+        className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
+    </div>
+      </div> 
+
+
       </div>
    
       
