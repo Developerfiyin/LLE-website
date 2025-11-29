@@ -10,9 +10,43 @@ import { MdEmail } from 'react-icons/md'
 
 const contact = () => {
   return (
-    <section className='py-12 bg-[#f8f7f7]'>
+    <section className='py-12 px-4 bg-[#f8f7f7]'>
 
-      
+      <div className='flex flex-col mx-auto'>
+             
+             <div className='flex justify-between'>
+              <div>
+              <p className='bg-[#ffe8d9] text-[#ff6300] text-2xl rounded-lg mx-auto p-2 mb-3 ml-0'>Contact Us</p>
+             </div>
+
+             
+              <div className=" flex gap-2.5">
+            <div className="relative w-64">
+                <FaUser className="absolute left-3 top-2.5 text-gray-500" size={20} />
+                  <input
+                  type="text"  
+                   required
+               placeholder="Name..."
+              className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
+                  </div> 
+
+          <select
+        className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
+        <option value="Subject">Choose Subject</option>
+        <option value="Subject">Choose Subject</option>
+        <option value="Subject">Choose Subject</option>
+        <option value="Subject">Choose Subject</option>
+        <option value="subject">Choose Subject</option>
+        <option value="subject">Choose Subject</option>
+        <option value="subject">Choose Subject</option>
+        </select>
+      </div>  
+
+             </div>
+
+             
+             
+      </div>
    
       
     </section>
@@ -67,7 +101,7 @@ export default contact
 
                 {/* OPTION TAG }
                   
-            <div className="p-4">
+         <div className="p-4">
           <select
         className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
         <option value="Subject">Choose Subject</option>
@@ -97,10 +131,10 @@ export default contact
        </div>
 
   <div className="relative w-64">
-      {/* Icon */}
+      {/* Icon }
       <BsTelephoneFill  className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
-      {/* Input */}
+      {/* Input }
       <input
         type="phone no"
         placeholder="Phone number"
