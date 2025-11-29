@@ -7,12 +7,21 @@ import Instagram  from '../assets/instagram.png'
 import { FaUser } from "react-icons/fa";
 import { BsTelephoneFill } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
-import { TbElevator } from 'react-icons/tb'
 
 const contact = () => {
   return (
-    <section className='flex justify-evenly py-12 bg-[#f8f7f7]'>
-    <div className=' bg-[#F8F7F7] flex flex-col m-9 '>
+    <section className='py-12 bg-[#f8f7f7]'>
+
+      
+   
+      
+    </section>
+  )
+}
+
+export default contact 
+
+ {/*<div className=' bg-[#F8F7F7] flex flex-col m-9 '>
 
       <div className='flex flex-col p-6 '>
        <p className='bg-[#ffe8d9] text-[#ff6300] text-2xl rounded-lg mx-auto p-2 mb-3 ml-0'>Contact Us</p>
@@ -46,19 +55,19 @@ const contact = () => {
        <div className='flex flex-col'>
         <div className='flex gap-4'> 
             <div className="relative w-64">
-               {/* Icon */}
+               {/* Icon }
                 <FaUser className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
-               {/* Input */}
+               {/* Input }
                   <input
                   type="text"   required
                placeholder="Name..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
                   </div> 
 
-                {/* OPTION TAG */}
+                {/* OPTION TAG }
                   
-     <div className="p-4">
+            <div className="p-4">
           <select
         className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
         <option value="Subject">Choose Subject</option>
@@ -72,7 +81,7 @@ const contact = () => {
       </div>
         </div>
 
-      {/* FLEX 2*/}
+      {/* FLEX 2}
 
 
        <div className='flex gap-4'>
@@ -80,7 +89,7 @@ const contact = () => {
               {/* Icon */}
               <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
-              {/* Input */}
+              {/* Input }
               <input
                   type="email"   required
                placeholder="Email Address..."
@@ -108,10 +117,4 @@ const contact = () => {
       <button className='bg-[#a60000] mx-auto mt-6 ml-0 text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Send Your Message</button>
 
        </div>
-   
-      
-    </section>
-  )
-}
-
-export default contact 
+  */}
