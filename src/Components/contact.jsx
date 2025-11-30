@@ -16,13 +16,13 @@ const contact = () => {
               
              <div className='lg:flex  gap-4 justify-around grid'>
               <div> 
-              <p className=' bg-[#ffe8d9] text-[#ff6300] text-2xl rounded-lg mx-auto mb-3 py-2 text-center '>Contact Us</p>
-              <h2 className='text-[#3a0000] text-3xl font-medium bg-white mb-9'>Feel Free To Contact Us Anytime.</h2>
+              <p className=' bg-[#ffe8d9] text-[#ff6300] w-fit text-2xl rounded-lg mb-3 p-2 text-center '>Contact Us</p>
+              <h2 className='text-[#3a0000] text-3xl font-medium mb-9'>Feel Free To Contact Us Anytime.</h2>
 
                  <div className='flex gap-3'>
            <img src={email} alt="The email icon" className='size-12' />
           <div className=''>
-        <h6 className='font-medium text-[#3a0000] text-xl '>Chat Now</h6>
+        <h6 className='font-medium text-[#3a0000] text-xl'>Chat Now</h6>
         <p className='text-sm text-[#3a0000] '>Kinkan@gmail.com</p>
        </div>
 
@@ -84,8 +84,6 @@ const contact = () => {
         className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
     </div>
       </div> 
-
-
 
     <textarea
       placeholder="Write your thoughts..."
