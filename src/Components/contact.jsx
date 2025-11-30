@@ -42,8 +42,10 @@ const contact = () => {
        </div>           
         </div>
 
+<div>
 
-          <div className=" flex gap-2.5">
+           
+          <div className=" flex gap-2.5 ">
             <div className="relative w-64">
                 <FaUser className="absolute left-3 top-2.5 text-gray-500" size={20} />
                   <input
@@ -52,7 +54,6 @@ const contact = () => {
                placeholder="Name..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
                   </div> 
-
             <div>
             <select
            className="border border-gray-300 mb-5 rounded-lg p-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#ff6300]">
@@ -66,29 +67,37 @@ const contact = () => {
          </select>
       </div>  
       </div>
-      
+    
+ <div className='flex gap-4'>
+      <div className="relative w-64">
+            
+              <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
 
-       </div>            
-                       <div className='gap-4 flex'>
-         <div className="relative w-64">   
-        <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
-                 <input
-               type="email"   required
+          
+              <input
+                  type="email"   required
                placeholder="Email Address..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
-           </div>
+       </div>
 
-        <div className="relative w-64">
+  <div className="relative w-64">
       
       <BsTelephoneFill  className="absolute left-3 top-2.5 text-gray-500" size={20} />
+
+      
       <input
         type="phone no"
         placeholder="Phone number"
-        className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
+        className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"
+      />
     </div>
       </div> 
 
 
+
+    </div>
+       </div>            
+             
       </div>
    
       
