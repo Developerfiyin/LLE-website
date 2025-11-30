@@ -13,15 +13,15 @@ const contact = () => {
     <section className='py-12 px-4 bg-[#f8f7f7]'>
 
       <div className='flex flex-col mx-auto'>
-             
-             <div className='flex justify-between'>
+              
+             <div className='lg:flex justify-around grid'>
               <div> 
               <p className='bg-[#ffe8d9] text-[#ff6300] text-2xl rounded-lg mx-auto p-2 mb-3 ml-0'>Contact Us</p>
               <h2 className='text-[#3a0000] text-3xl font-medium  mb-9'>Feel Free To Contact Us Anytime.</h2>
 
                  <div className='flex gap-3'>
-       <img src={email} alt="The email icon" className='size-12' />
-       <div className=''>
+           <img src={email} alt="The email icon" className='size-12' />
+          <div className=''>
         <h6 className='font-medium text-[#3a0000] text-xl '>Chat Now</h6>
         <p className='text-sm text-[#3a0000] '>Kinkan@gmail.com</p>
        </div>
@@ -43,7 +43,6 @@ const contact = () => {
         </div>
 
 <div>
-
            
           <div className=" flex gap-2.5 ">
             <div className="relative w-64">
@@ -68,32 +67,32 @@ const contact = () => {
       </div>  
       </div>
     
- <div className='flex gap-4'>
-      <div className="relative w-64">
-            
+         <div className='flex gap-4'>
+           <div className="relative w-64">
               <MdEmail className="absolute left-3 top-2.5 text-gray-500" size={20} />
-
-          
               <input
                   type="email"   required
                placeholder="Email Address..."
               className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
        </div>
 
-  <div className="relative w-64">
-      
-      <BsTelephoneFill  className="absolute left-3 top-2.5 text-gray-500" size={20} />
-
-      
-      <input
-        type="phone no"
+          <div className="relative w-64">
+          <BsTelephoneFill  className="absolute left-3 top-2.5 text-gray-500" size={20} />
+          <input
+          type="phone no"
         placeholder="Phone number"
-        className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"
-      />
+        className="pl-10 pr-3 py-2 w-full border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#ff6300] focus:outline-none"/>
     </div>
       </div> 
 
 
+
+    <textarea
+      placeholder="Write your thoughts..."
+      className="w-full h-40 mx-auto mt-3 border border-gray-300 rounded-lg p-3 text-gray-700 resize-none focus:ring-2 focus:ring-[#ff6300] focus:outline-none"
+      />
+
+      <button className='bg-[#a60000] mx-auto mt-6 ml-0 text-white p-2 md:p-2 rounded-lg ease-in-out duration-300 hover:bg-[#3a0000]'>Send Your Message</button>
 
     </div>
        </div>            
