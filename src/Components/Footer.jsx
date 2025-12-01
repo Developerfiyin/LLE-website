@@ -40,7 +40,7 @@ const Footer = () => {
    <p className='p-2'>Contact: 08133518773</p>
   </div> 
     </div>
-     <p className='w-full text-[#3a0000] text-center border-t-2 border-[#3a0000]'>Copyright 2025, LLE - Limitless Leadership Eversion </p>
+     <p className='w-full text-[#3a0000] text-center border-t-2 border-[#3a0000] pt-4'>Copyright 2025, LLE - Limitless Leadership Eversion </p>
     </>
   )
 }
