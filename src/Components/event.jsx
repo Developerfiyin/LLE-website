@@ -25,7 +25,7 @@ const event = () => {
       </div>
                {/*  THE DIV FOR THE CIRLES*/ }
          <div className=' flex gap-2 m-2 '>
-            <div className="w-20 h-20 bg-[#ffe8d9] rounded-full flex flex-col items-center md:w-16 md:h-16 justify-center text-center shadow-lg">
+            <div className="w-20 h-20 bg-[#ffe8d9] rounded-full lg:flex flex-col grid items-center md:w-16 md:h-16 justify-center text-center shadow-lg">
               <h5 className="text-xl font-bold text-[#ff6300]">03</h5>
               <p className="text-sm text-[#3a0000]">Days</p>
            </div>
