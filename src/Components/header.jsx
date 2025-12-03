@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-    <header className='bg-black/20 backdrop-blur flex justify-between text-[#9999] py-10 p-4 mx-auto text-center z-50 sticky top-0 '>
+    <header className='bg-[#e6e2e2cc] backdrop-blur flex justify-between text-[#9999] py-10 p-4 mx-auto text-center z-50 sticky top-0 '>
        <img src={Logo} alt="The logo image" width={100} />
        <div className='hidden md:flex gap-8 font-medium'>
        <a href="#home" className='text-[#A60000] hover:text-[#fd0707]'>Home</a>
